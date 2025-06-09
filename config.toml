@@ -1,0 +1,17 @@
+# .streamlit/config.toml
+
+[theme]
+# The orange accent color for interactive elements like sliders, etc.
+primaryColor="#FF630F"
+
+# Set the main page background to a very light off-white/gray for contrast
+backgroundColor="#F0F2F6"
+
+# Set the background for the sidebar and other UI elements to pure white
+secondaryBackgroundColor="#FFFFFF"
+
+# The main text color, taken from your provided styles
+textColor="#515151"
+
+# Use a standard sans-serif font family as a base
+font="sans serif"

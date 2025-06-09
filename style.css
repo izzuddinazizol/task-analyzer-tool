@@ -1,0 +1,70 @@
+/* style.css */
+
+/* --- Import & Apply Open Sans Font --- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+/* Apply the font to the entire app */
+body, .stApp, .stButton>button, .stTextInput>div>div>input, .stTextArea>div>div>textarea {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* --- Card Layout for Main Area --- */
+/* This makes the main content area a white "card" with a subtle shadow */
+.main .block-container {
+    background-color: #FFFFFF;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* --- Custom Button Styles --- */
+/* Style for the main action buttons */
+.stButton>button {
+    background-color: #FF630F; /* Brightest orange for important buttons */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.stButton>button:hover {
+    background-color: #E05A0E; /* A slightly darker orange for hover */
+    color: #FFFFFF;
+}
+
+/* Style for download buttons to be less prominent */
+.stDownloadButton>button {
+    background-color: #F0F2F6; /* Softer, background-like color */
+    color: #515151;
+    border: 1px solid #D0D0D0;
+}
+
+.stDownloadButton>button:hover {
+    background-color: #E0E0E0;
+    border: 1px solid #C0C0C0;
+}
+
+/* --- Header and Title Styling --- */
+/* Use the dark blue from your provided styles for the main title */
+h1 {
+    color: #103E60;
+    font-weight: 700;
+}
+
+h2 {
+    color: #103E60;
+    font-weight: 600;
+}
+
+/* Clean up expander styles for the new theme */
+.st-expander {
+    border: 1px solid #E0E0E0 !important;
+    box-shadow: none !important;
+    border-radius: 10px;
+}
+
+.st-expander header {
+    background-color: #F8F9FA;
+    border-radius: 10px;
+}
